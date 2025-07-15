@@ -26,7 +26,7 @@ cacheSolve <- function(x, ...) {  ##defines function for cache solve
                 return(matr) }
         data <- x$get() ## defines data from get function
         matr <- solve(data, ...) ##redefines matr from the solve function of data
-        x$setinverse(matr) ##retrieves set inverse from matr
+        x$setinverse(matr) ##retrieves set inverse 
         matr 
         ## Return a matrix that is the inverse of 'x'
 }
